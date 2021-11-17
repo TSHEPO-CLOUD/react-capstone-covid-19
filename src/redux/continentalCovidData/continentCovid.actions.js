@@ -10,6 +10,12 @@ export const requestCovidData = () => ({
  type: REQUEST_COVID_DATA,
 });
 
+
+export const requestCovidDataSucess = (data) => ({
+ type: REQUEST_COVID_DATA_SUCCESS,
+ payload: data,
+});
+
 export const errorRequestingCovidData = (error) => ({
  type: ERROR_REQUESTING_COVID_DATA,
  payload: error,
