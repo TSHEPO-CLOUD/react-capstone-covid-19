@@ -27,7 +27,12 @@ const Home = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [region, setRegion] = useState('africa');
 
-;
+  useEffect(() => {
+    (async () => {
+      await dispatch(fetchCovidData(region));
+      setIsLoading(true);
+    })();
+  }, [region]);
 
   return (
     <div className="main">
@@ -45,7 +50,13 @@ const Home = () => {
             <Form>
               <Form.Group>
                 <Form.Select value={region} arial-label="Select region" onChange={(e) => setRegion(e.target.value)}>
-                  
+                  <option>Select region</option>
+                  <option value="africa">Africa</option>
+                  <option value="asia">Asia</option>
+                  <option value="europe">Europe</option>
+                  <option value="australia">Australia</option>
+                  <option value="north america">North America</option>
+                  <option value="south america">South America</option>
                 </Form.Select>
               </Form.Group>
             </Form>
@@ -61,7 +72,9 @@ const Home = () => {
                     return (
                       <Col className="card" xs={6} md={3} key={filteredData.abbreviation}>
                         <div className="arrow">
-                       
+                          <Button className="btn" type="button" onClick={() => dispatch(fetchCountryData(country))}>
+                            <Link to={`/country/${country}`} className="text-light"><FontAwesomeIcon icon={faArrowAltCircleRight} size="1.5x" /></Link>
+                          </Button>
                         </div>
                         <div className="card-details">
                           <Card.Body>
