@@ -14,3 +14,17 @@ export const errorRequestingCovidData = (error) => ({
  type: ERROR_REQUESTING_COVID_DATA,
  payload: error,
 });
+
+const fetchCovidData = (country) => async (dispatch) => {
+ dispatch(requestCovidData());
+ axios.get(getContinent(country))
+   .then((response) => {
+     const result = Object.values(response.data);
+
+     dispatch(requestCovidDataSucess(result));
+   }).catch((error) => {
+     dispatch(errorRequestingCovidData(error));
+   });
+};
+
+export default fetchCovidData;
