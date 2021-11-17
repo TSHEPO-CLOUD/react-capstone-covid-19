@@ -105,5 +105,7 @@ const Home = () => {
   );
 };
 
-
+Home.defaultProps = {
+  continentalCovidData: PropTypes.func,
+};
 export default Home;
