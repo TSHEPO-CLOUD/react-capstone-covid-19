@@ -12,8 +12,7 @@ import { faArrowAltCircleRight } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import fetchCovidData from '../../redux/continentalCovidData/continentCovid.actions';
 import fetchCountryData from '../../redux/countryCovidData/countryCovid.actions';
-import './Index.css';
-import covid from '../covid.png';
+import './index.css';
 
 const override = css`
   display: block;
@@ -38,9 +37,6 @@ const Home = () => {
     <div className="main">
       <Container>
         <Row className="title">
-          <Col xs={6}>
-            <img src={covid} alt="covid" className="img" />
-          </Col>
           <Col xs={6} className="regionName">
             <h1 className="region">{region.toUpperCase()}</h1>
           </Col>
