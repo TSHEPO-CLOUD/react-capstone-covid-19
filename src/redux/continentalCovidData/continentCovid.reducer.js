@@ -19,8 +19,23 @@ const covidReducer = (state = initialState, action) => {
      };
 
      case REQUEST_COVID_DATA_SUCCESS:
+      return {
+        ...state,
+        isLoading: false,
+        covidData: action.payload,
+        error: '',
+      };
 
+    case ERROR_REQUESTING_COVID_DATA:
+      return {
+        ...state,
+        isLoading: false,
+        error: action.payload,
+      };
 
+    default:
+      return state;
+  }
+};
 
-
-      case ERROR_REQUESTING_COVID_DATA:
+export default covidReducer;
