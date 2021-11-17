@@ -66,7 +66,7 @@ const Home = () => {
           !isLoading ? (<ClipLoader color="green" loading={isLoading} css={override} size={150} />) : (
             <Row>
               {
-                continentalCovidData((continentalCovidData) => continentalCovidData)
+                continentalCovidData.filter((continentalCovidData) => continentalCovidData)
                   .map((filteredData) => {
                     const { country, confirmed } = filteredData.All;
                     return (
