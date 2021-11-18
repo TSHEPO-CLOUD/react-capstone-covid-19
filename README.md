@@ -2,7 +2,7 @@
 # COVID-19-TRACKING-PROJECT
 
 
-> This React capstone project is about building a  web application to check a list of metrics (numeric values) that i created making use of React and Redux..
+> This React capstone project is about building a mobile web application to check a list of metrics (numeric values) that i created making use of React and Redux..
 
 ### Screenshots
 
@@ -30,7 +30,8 @@ This project is found on the following Repo [react-capstone-covid-19](https://gi
 
 ## Live Demo
 
-You can view the live demo of the project [Here!](https://zen-nightingale-b20a76.netlify.app)
+You can view the live demo of the project here:
+[Live Demo!](https://zen-nightingale-b20a76.netlify.app)
 
 ### Prerequisites
 

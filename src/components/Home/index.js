@@ -54,7 +54,6 @@ const Home = () => {
                   <option value="africa">Africa</option>
                   <option value="asia">Asia</option>
                   <option value="europe">Europe</option>
-                  <option value="australia">Australia</option>
                   <option value="north america">North America</option>
                   <option value="south america">South America</option>
                 </Form.Select>
