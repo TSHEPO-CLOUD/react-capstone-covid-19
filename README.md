@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+# React and Redux
+# COVID-19-TRACKING-PROJECT
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+> This React capstone project is about building a  web application to check a list of metrics (numeric values) that i created making use of React and Redux..
 
-In the project directory, you can run:
+### Screenshots
 
-### `yarn start`
+|Main Project page
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![screenshot](./screenshot1.png)
+![screenshot](./screenshot2.png)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `yarn test`
+## Built With
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- HTML5
+- CSS3
+- Bootstrap
+- Font Awesome
+- JavaScript-
+- COVID-19 API
+- React-Bootstrap
+- React-Region-Country
+- Jest Test
 
-### `yarn build`
+## Our Project
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This project is found on the following Repo [react-capstone-covid-19](https://github.com/TSHEPO-CLOUD/react-capstone-covid-19)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Live Demo
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+You can view the live demo of the project [Here!](https://614255540bbc8400e31a7e9a--jolly-tereshkova-efa063.netlify.app/)
 
-### `yarn eject`
+### Prerequisites
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+A Morden Browser
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Setup
+- Go to [https://github.com/TSHEPO-CLOUD/react-capstone-covid-19]
+- Clone the project to your local machine
+- Cd into your directory
+- Run npm install
+- Type: npm run build
+- Run npm start
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Setup
+- To Test npm install jest and run npm test
+## Author
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+👤 **Tshepo David**
 
-## Learn More
+- GitHub: [@githubhandle](https://github.com/TSHEPO-CLOUD)
+- Twitter: [Twetter](https://twitter.com/tshepomolefem)
+- Linkedin: [Linkedin]([LinkedIn](https://www.linkedin.com/in/tshepo-molefe-8153313b))
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🤝 Contributing
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Contributions, issues and feature requests are welcome!
 
-### Code Splitting
+Feel free to check the [issues page](https://github.com/TSHEPO-CLOUD/react-capstone-covid-19/issues/3).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Show your support
 
-### Analyzing the Bundle Size
+Give a ⭐️ if you like this project!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Acknowledgments
 
-### Making a Progressive Web App
+- This project was inspired by the [Microverse](https://www.microverse.org/) for the  program
+- Thanks to [The mmediagroup](https://covid-api.mmediagroup.fr//)
+- Thanks to [Font Awesome](https://fontawesome.com/)
+- Thanks to [ Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio/) for the original design
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+## 📝 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+MIT License
