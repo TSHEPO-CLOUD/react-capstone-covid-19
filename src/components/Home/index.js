@@ -73,7 +73,7 @@ const Home = () => {
                       <Col className="card" xs={6} md={3} key={filteredData.abbreviation}>
                         <div className="arrow">
                           <Button className="btn" type="button" onClick={() => dispatch(fetchCountryData(country))}>
-                            <Link to={`/country/${country}`} className="text-light"><FontAwesomeIcon icon={faArrowAltCircleRight} size="1.5x" /></Link>
+                            <Link to={`/country/${country}`} className="text-light"><FontAwesomeIcon icon={faArrowAltCircleRight} size="lg" /></Link>
                           </Button>
                         </div>
                         <div className="card-details">

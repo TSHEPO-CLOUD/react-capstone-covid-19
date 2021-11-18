@@ -15,7 +15,7 @@ function Details() {
         <div className="inside">
           {
         countryCovidData.length > 0 ? countryCovidData.map(({
-          confirmed, deaths, country, capitalCity, abbreviation,
+          confirmed, deaths, country, abbreviation,
         }) => (
           <div className="country" key={abbreviation}>
 
@@ -34,10 +34,6 @@ function Details() {
               <h5>
                 Deaths: &nbsp;
                 { deaths }
-              </h5>
-              <h5>
-                Capital: &nbsp;
-                { capitalCity }
               </h5>
             </div>
 
