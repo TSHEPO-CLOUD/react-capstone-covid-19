@@ -30,7 +30,7 @@ This project is found on the following Repo [react-capstone-covid-19](https://gi
 
 ## Live Demo
 
-You can view the live demo of the project [Here!](https://614255540bbc8400e31a7e9a--jolly-tereshkova-efa063.netlify.app/)
+You can view the live demo of the project [Here!](https://zen-nightingale-b20a76.netlify.app)
 
 ### Prerequisites
 

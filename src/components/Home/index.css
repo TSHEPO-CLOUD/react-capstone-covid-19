@@ -30,7 +30,9 @@ body {
 .img {
   opacity: 0.6;
   margin-top: 5%;
-  margin-bottom: 5%;}
+  margin-bottom: 5%;
+}
+
 .region {
   font-family: 'Lato', sans-serif;
   font-size: 2.5rem;
@@ -46,7 +48,7 @@ body {
 }
 
 .title {
-  background-color:rgba(225, 225, 225, 0.08);
+  background-color: rgba(225, 225, 225, 0.08);
   font-family: 'Gill Sans ExtraBoldDisplay', sans-serif;
 }
 
